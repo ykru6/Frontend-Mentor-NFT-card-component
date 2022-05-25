@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="/style/card.css">
+  <link rel="stylesheet" href="/style/main.css">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 1rem; text-align: center; margin: 1rem;}
+    .attribution a { color: var(--cyan); }
+  </style>
+</head>
+
+<body>
+  <div class="card-container">
+    <figure class="card-component">
+      <section class="card-component__img-content">
+        <img src="/images/image-equilibrium.jpg" alt="Equilibrium" class="img-content__nft-hero">
+        <div class="img-content__nft-overlay">
+          <img src="/images/icon-view.svg" alt="Icon Overlay" class="nft-overlay__icon">
+        </div>
+      </section>
+
+      <section class="card-component__text">
+        <h2 class="text__title">Equilibrium #3429</h2>
+        <p class="text__desc">Our Equilibrium collection promotes balance and calm.</p>
+      </section>
+
+      <section class="card-component__value">
+        <div class="value__value-1">
+          <img src="/images/icon-ethereum.svg" alt="Eth Icon" class="value-1__eth-icon">
+          <span class="value-1__eth-value">0.041 ETH</span>
+        </div>
+        <div class="value__value-2">
+          <img src="/images/icon-clock.svg" alt="Date Icon" class="value-2__date-icon">
+          <span class="value-2__date">3 days left</span>
+        </div>
+      </section>
+
+      <hr class="card-component__separator"></hr>
+      
+      <section class="card-component__footer">
+        <img src="/images/image-avatar.png" alt="Jules-Wyvern-img" class="footer__user-img">
+          <span class="footer__footer-desc">Creation of <a href="#" class="footer-desc__user-name">Jules Wyvern</a>
+          </span>
+      </section>
+    </figure>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yakeru</a>.
+  </div>
+</body>
+</html>
