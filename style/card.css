@@ -45,6 +45,8 @@
 } 
 
 .text__title {
+    display: inline-block;
+    
     cursor: pointer;
     
     font-size: 1.235rem;
